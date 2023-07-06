@@ -1,6 +1,5 @@
 use axum::{routing::get, Json, Router};
 use serde::Serialize;
-use serde_json::{json, Value};
 use small_rust_core::{emojis::get_random_emoji, hostname::get_hostname};
 use tower_http::cors::CorsLayer;
 
